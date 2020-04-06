@@ -12,15 +12,61 @@
 
       gtag('config', 'G-T5KY6DK4WS');
     </script>
+    <style>
+      h1 {
+        text-align: center;
+        font-size:50px;
+        border-bottom:2px solid gray;
+        padding:20px;
+        margin: 0
+    }
+      a {
+        color:black;
+        text-decoration:none;
+      }
+      #grid ol{
+          border-right:1px solid gray;
+          width: 140px;
+          margin: 0px;
+          padding-left: 50px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-size: 25px;
+      }
+      body {
+            margin:0px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 210px 1fr;
+      }
+      h2,p{
+        padding-left: 12px;
+      }
+    </style>
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
-    <ol>
-      <li><a href="1.html">Nature</a></li>
-      <li><a href="2.html">CSS</a></li>
-      <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <h2>WEB</h2>
-      The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators , which may be interlinked by hypertext, and are accessible over the Internet.[1][2] The resources of the WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server.
-  </body>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html" class="saw">Nature</a></li>
+        <li><a href="2.html" class="saw">CSS</a></li>
+        <li><a href="3.html" class="saw">JavaScript</a></li>
+      </ol>
+      <!--
+      <h1><a href="index.html"><font color=red>WEB</font></a></h1>
+      <ol>
+        <li><a href="1.html"><font color=red>Nature</font></a></li>
+        <li><a href="2.html"><font color=red>CSS</font></a></li>
+        <li><a href="3.html"><font color=red>JavaScript</font></a></li>
+      </ol>
+      -->
+      <div>
+        <h2>WEB</h2>
+          <p>
+            The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators , which may be interlinked by hypertext, and are accessible over the Internet.[1][2] The resources of the WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server.
+          </p>
+      </div>
+    </div>
+</body>
 </html>
